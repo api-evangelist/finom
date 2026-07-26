@@ -1,0 +1,37 @@
+# Finom
+
+> Finom is a European fintech providing business banking, invoicing, and financial management.
+
+## Quick Facts
+- **HQ:** Amsterdam, Netherlands
+- **Licensing:** Licensed Electronic Money Institution (EMI) by De Nederlandsche Bank (DNB).
+- **Core Markets:** Germany (DE), France (FR), Italy (IT), Spain (ES), Netherlands (NL).
+- **Currencies:** Multi-currency support (EUR, USD, GBP + 15 others).
+
+## Regional Banking Solutions
+- [Germany - Business Account](https://finom.co/de-de/business-account/): Focused on GmbH, UG, & Freelancers with Finanzamt tools.
+- [France - Compte Professionnel](https://finom.co/fr-fr/business-account/): Specialized for Auto-entrepreneur & SASU.
+- [Italy - Conto Business](https://finom.co/it-it/business-account/): Features for Fatturazione Elettronica support.
+
+## Technical Capabilities & Integrations
+- **Payment Rails:** 24/7 SEPA Instant, SWIFT, Direct Debits.
+- **Accounting:** DATEV (DE), Lexware, sevDesk, Xero, QuickBooks.
+- **Invoicing:** Fully compliant E-Invoicing (ZUGFeRD, XRechnung).
+- **Cards:** Visa Business (Physical/Virtual) with up to 3% cashback.
+
+## Main Pages
+- [Homepage](https://finom.co/de-de/): Overview of Finom's business banking services.
+- [Pricing](https://finom.co/de-de/pricing): Pricing plans and features comparison.
+- [Business Account](https://finom.co/de-de/business-account): Business banking account features.
+- [Invoicing](https://finom.co/de-de/invoicing): Invoicing and payment solutions.
+- [Cards](https://finom.co/de-de/cards): Business debit cards.
+- [Accounting](https://finom.co/de-de/accounting): Accounting integrations and tools.
+
+## Company
+- [Careers](https://careers.finom.co): Job opportunities at Finom.
+- [Blog](https://finom.co/de-de/blog): Articles about business, finance, and entrepreneurship.
+
+## Contact
+- Website: https://finom.co
+- Support: Available through the Finom app and website.
+

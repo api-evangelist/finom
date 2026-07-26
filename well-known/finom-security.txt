@@ -1,0 +1,6 @@
+Contact: https://app.intigriti.com/programs/finom/finom-vdp/detail
+Contact: mailto: security@finom.co
+Encryption: https://app.finom.co/pgp-key.txt
+Expires: 2035-12-12T12:12:00Z
+Policy: https://app.intigriti.com/programs/finom/finom-vdp/detail
+Preferred-Languages: en

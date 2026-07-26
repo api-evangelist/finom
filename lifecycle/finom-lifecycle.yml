@@ -1,0 +1,11 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.finom.co/ ; https://finom.co/.well-known/security.txt
+# Finom publishes no public developer API, so there is no API versioning /
+# deprecation policy or Sunset-header contract to capture. What Finom does
+# operate publicly is a service status page for its banking product.
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.finom.co/
+deprecated_operations: []

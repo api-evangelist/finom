@@ -1,21 +1,51 @@
 aid: finom
 name: Finom
-description: Finom is a company surfaced as a portfolio company of general-catalyst, northzone and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Finom is a European fintech headquartered in Amsterdam that provides business
+  banking, invoicing, and financial management for entrepreneurs, freelancers,
+  and SMEs. Operating as a licensed Electronic Money Institution (EMI) supervised
+  by De Nederlandsche Bank (DNB), Finom offers multi-currency business accounts,
+  24/7 SEPA Instant and SWIFT payments, direct debits, Visa Business physical and
+  virtual cards with up to 3% cashback, compliant e-invoicing (ZUGFeRD, XRechnung),
+  and integrations with accounting platforms such as DATEV, Lexware, sevDesk, Xero,
+  and QuickBooks. It serves Germany, France, Italy, Spain, and the Netherlands with
+  region-specific tooling. Finom does not currently publish a public developer API
+  program; this profile captures its public discovery, security, and operational
+  surface (llms.txt, security.txt / Intigriti VDP, domain security, status page).
 url: https://raw.githubusercontent.com/api-evangelist/finom/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://finom.co/preview/index_en.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 - northzone
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Business Banking
+- Payments
+- Invoicing
+- Accounting
+- SEPA
+- SME
+- Europe
+- Financial Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,32 @@ maintainers:
 common:
 - type: Website
   url: https://finom.co
+- type: Pricing
+  url: https://finom.co/de-de/pricing
+- type: Blog
+  url: https://finom.co/de-de/blog
+- type: Support
+  url: https://help.finom.co/en/
+- type: SignUp
+  url: https://app.finom.co/
+- type: StatusPage
+  url: https://status.finom.co/
+- type: Lifecycle
+  url: lifecycle/finom-lifecycle.yml
+- type: LLMsTxt
+  url: llms/finom-llms.txt
+- type: WellKnown
+  url: well-known/finom-well-known.yml
+- type: SecurityTxt
+  url: well-known/finom-security.txt
+- type: Security
+  url: https://finom.co/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/finom-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/finom-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
