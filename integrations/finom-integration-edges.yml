@@ -25,8 +25,52 @@ edges:
     builder: unknown (not in the directory record)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
+- partner_name: DNB public register (supervised institutions, Netherlands)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.dnb.nl/en/public-register/
+  category: Dutch financial supervisory licence (DNB)
+  contract_reference:
+    register: DNB public register (supervised institutions, Netherlands)
+    spec_file: null
+    standard: null
+    role: licensed-participant
+    registrations:
+    - registered_name: FINOM Payments B.V.
+      licences:
+      - Electronic money institutions
+      - Authorisation to carry out the business of a electronic-money institution (PSD2 - WFT 2:10a)
+      register_country: NL
+      matched_domain: finom.co
+      matched_by: domain
+      register_id: DNB R180074
+      lei: 7245008GWLPQCA1S1726
+    - registered_name: PNL Fintech B.V.
+      licences:
+      - Electronic money institutions
+      register_country: NL
+      matched_domain: finom.co
+      matched_by: domain
+      brand: Finom
+      register_id: DNB R180198
+      lei: 7245005P4Q0RB9RLVC95
+      identity: wikidata Q101552584 'Finom' P856 https://finom.co/
+    signal_note: 'participation only: a supervisory licence / authorisation; no API conformance is published by
+      this register'
+    detected_by: sweep-dach-financial-registers.py
+    detected: '2026-10-21'
+    identity_source: wikidata P856 (LEI P1278 or name; labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-dach-financial-registers.py
+  first_seen: '2026-10-21'
 method: searched
 checked:
 - https://zapier.com/api/v4/apps/
+- https://portal.mvp.bafin.de/database/InstInfo/
+- https://www.dnb.nl/en/public-register/
+- https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/
 source:
 - https://zapier.com/api/v4/apps/
